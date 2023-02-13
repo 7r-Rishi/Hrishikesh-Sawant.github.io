@@ -58,11 +58,21 @@
 
 #home{
     display: flex;
-    /* background: url("/spiderMan.jpg") no-repeat center; */
+    background: url(./Image/emile-perron-xrVDYZRGdw4-unsplash.jpg) no-repeat center;
+    background: url(./Image/emile-perron-xrVDYZRGdw4-unsplash.jpg) no-repeat center;
+    background: url(./Image/emile-perron-xrVDYZRGdw4-unsplash.jpg) no-repeat center;
+    
     height: 100vh;
     color: rgb(27, 26, 26);     /*--- text_color   --*/
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
+
+    /*  */
+    /* background-color: #111; */
+    /* height: 100vh; */
+    color: #fff;
+    background-size: cover;
+    background-attachment: fixed;
 }
 #home .max-width{
     margin: auto 0 auto 40px;
@@ -204,6 +214,12 @@
     font-weight: 600;
     font-size: 16px;
     margin: 10px;
+}
+.right > button a{
+    color: #fff;
+}
+.right > button a:hover{
+    color: black;
 }
 .left img{
     width: 100%;
