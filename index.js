@@ -16,3 +16,13 @@ var typed = new Typed(".typing-2", {
 
 
 
+
+
+
+// Tech Stack append
+
+
+
+
+
+
